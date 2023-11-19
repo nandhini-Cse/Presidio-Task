@@ -1,4 +1,4 @@
-A simplified clone of Dribbble  landing
+a simplified clone of Dribbble  landing
 page.
 USE CASES
 View Contents by Popularity, New & Net Worthy:
