@@ -1,0 +1,272 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.image-container {
+    display: flex;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+
+.home-feed___heading{
+    font-size: 60px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* Negative margin to counteract margin on .image-container */
+}
+
+.image-containers {
+    flex: 0 0 calc(33.33% - 20px); /* 33.33% width for each image with 20px margin */
+    margin: 10px; /* Adjust the margin for space between images */
+    position: relative;
+}
+
+.image-containers img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.image-containers img:hover {
+    transform: scale(1.1);
+}
+.like-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.name {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.category {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+.like-count {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.image-container:hover .like-button {
+    opacity: 1; /* Show like button on hover */
+}
+
+h1 {
+    color: #333;
+}
+
+.queries {
+    background-color: rgb(69, 136, 141); /* Set the background color to yellow */
+    padding: 20px;
+    border-radius: 10px;
+     /* Optional: Add border-radius for rounded corners */
+}
+.containers{
+    text-align: center;
+    background-color: rgb(69, 136, 141); 
+}
+
+/* Additional styling for other content */
+p {
+    margin-top: 20px;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  
+.header {
+    background-color: #5c5757;
+    color: white;
+    padding:10px 0;
+    text-align: right;
+    
+}
+
+.logo {
+    text-align: left;
+    font-size: 2.5em;
+    font-family: 'Bauhaus 93', sans-serif;
+    
+    
+}
+background-color{
+    color: white;.
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+
+
+}
+/* Add styles for the search bar */
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 0 20px
+}
+
+.search-bar {
+    width: 200px;
+    padding: 5px 10px;
+    margin-right: 5px
+    box-sizing: border-box;
+}
+.category-dropdown {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.category-list-item {
+    padding: 8px;
+    cursor: pointer;
+}
+/* Change color on hover */
+.auth-options button:hover {
+    background-color: #777777;
+    color: #22F0F3
+}
+.hero__heading {
+    max-width: 870px;
+    font-size: 72px;
+    line-height: 76px;
+    
+}
+h1 {
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+.form-container {
+    display: none;
+    margin-top: 50px;
+    width: 195px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 1px;
+    margin-bottom: 10px;
+
+}
+
+button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        text-align: right;
+}
+  
+.buttonfunction {
+    display: outline-block;
+    padding: 10px 20px;
+    color: rgb(217, 116, 116);
+    text-decoration:none ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(91, 87, 87, 0.793);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 auto; /* Add this line to center the button horizontally */
+    text-align: center; /* Add this line to center the text inside the button */
+}
+/* Insert this section after the rules for `.buttonfunction` */
+
+
+.button-box:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+.required {
+    color: red;
+    margin-left: 5px; /* Adjust as needed */
+}
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-80%);
+    cursor: pointer;
+}
+
+
+

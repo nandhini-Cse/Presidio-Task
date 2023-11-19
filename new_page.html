@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Your styles for the new page here */
+    </style>
+</head>
+<body>
+
+    <!-- Your new page content here -->
+    <h1>Selected Image</h1>
+    <img src="" alt="Selected Image" id="selectedImage">
+
+    <script>
+        // Retrieve the selected category from localStorage
+        var selectedCategory = localStorage.getItem('selectedCategory');
+
+        // Update the new page content based on the selected category
+        if (selectedCategory) {
+            var selectedImage = document.getElementById('selectedImage');
+            // Set the image source based on the selected category
+            switch (selectedCategory) {
+                case 'Category 1':
+                    selectedImage.src = 'img1.jpg';
+                    break;
+                case 'Category 2':
+                    selectedImage.src = 'img2.jpeg';
+                    break;
+                case 'Category 3':
+                    selectedImage.src = 'img3.jpg';
+                    break;
+                // Add more cases for additional categories
+            }
+        }
+    </script>
+
+</body>
+</html>

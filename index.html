@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dribble</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            
+            <div class="logo">Dribble</div>
+            
+            <div class="auth-options">
+                <div class="buttonfunction">
+                <button onclick="Talent()">Talent</button>
+                <button onclick="Inspiration()">Inspiration</button>
+                <button onclick="Learndesign()">Learndesign</button>
+                <button onclick="Gopro()">Gopro</button>
+                </div>
+                <button onclick="showLoginForm()">Login</button>
+                <button onclick="showSignupForm()">Sign Up</button>
+                <div class="top-bar">
+
+                    <div class="search-container">
+                        <input type="text" class="search-bar" id="searchBar" placeholder="Search...">
+                        <div class="category-dropdown" onclick="toggleCategoryList()">Select Category ▼</div>
+                        <ul class="category-list" id="categoryList">
+                            <li class="category-list-item" onclick="selectCategory('Category 1')">Category 1</li>
+                            <li class="category-list-item" onclick="selectCategory('Category 2')">Category 2</li>
+                            <li class="category-list-item" onclick="selectCategory('Category 3')">Category 3</li>
+                            <!-- Add more categories as needed -->
+                        </ul>
+                    </div>
+                    
+                    
+                    </div>
+                    <a href="new_page.html" target="_blank"></a>
+                    
+            </div>
+        </div>
+    </header>
+    <div class="home-cotainer">
+        <h1 class="home-container">Work with the world's top creative talent.</h1>
+    </div>
+    
+   
+   
+</body>
+           <div class="image-container">
+  
+            <img src="image1.jpeg" alt="Image 1">
+            <img src="image2.jpeg" alt="Image 2">
+            <img src="image3.jpeg" alt="Image 3">
+            <img src="image4.jpeg" alt="Image 4">
+            <img src="image5.jpeg" alt="Image 5">
+            <img src="image6.jpeg" alt="Image 6">
+            <img src="image7.jpeg" alt="Image 7">
+            </div>
+            <div class="home-feed">
+                <h2 class="home-feed___heading home-container">Explore inspiring designs</h2>
+        
+                <div class="grid">
+                    <div class="image-containers">
+                        <img src="img1.jpg" alt="Image 1">
+                        <button class="like-button" onclick="like('likeCount1')">Like</button>
+                        <span class="like-count" id="likeCount1">0 Likes</span>
+                        <div class="name">Graphics</div>
+                        <div class="category">Category 1</div>
+                    
+                        
+                    </div>
+                    <div class="image-containers">
+                        <img src="img2.jpeg" alt="Image 2">
+                        <button class="like-button" onclick="like('likeCount2')">Like</button>
+                        <span class="like-count" id="likeCount2">0 Likes</span>
+                        <div class="name">Computer screen wallpaper</div>
+                        <div class="category">Category 2</div>
+                        
+                    </div>
+                    <div class="image-containers">
+                        <img src="img3.jpg" alt="Image 3">
+                        <button class="like-button" onclick="like('likeCount3')">Like</button>
+                        <span class="like-count" id="likeCount3">0 Likes</span>
+                        <div class="name">Creative design</div>
+                        <div class="category">Category 3</div>
+                        
+                    </div>
+                    <div class="image-containers">
+                        <img src="img4.jpeg" alt="Image 4">
+                        <button class="like-button" onclick="like('likeCount4')">Like</button>
+                        <span class="like-count" id="likeCount4">0 Likes</span>
+                        <div class="name">Name board</div>
+                        <div class="category">Category 2</div>
+                       
+                    </div>
+                    <div class="image-containers">
+                        <img src="img5.png" alt="Image 5">
+                        <button class="like-button" onclick="like('likeCount5')">Like</button>
+                        <span class="like-count" id="likeCount5">0 Likes</span>
+                        <div class="name">Logo</div>
+                        <div class="category">Category 5</div>
+                        
+                    </div>
+                    <div class="image-containers">
+                        <img src="img6.jpeg" alt="Image 6">
+                        <button class="like-button" onclick="like('likeCount6')">Like</button>
+                        <span class="like-count" id="likeCount6">0 Likes</span>
+                        <div class="name">Health center logo design</div>
+                        <div class="category">Category 3</div>
+                       
+                    </div>
+                    <div class="image-containers">
+                        <img src="img7.jpg" alt="Image 7">
+                        <button class="like-button" onclick="like('likeCount7')">Like</button>
+                        <span class="like-count" id="likeCount7">0 Likes</span>
+                        <div class="name">Dribble</div>
+                        <div class="category">Category 5</div>
+                        
+                    </div>
+                    <div class="image-containers">
+                        <img src="img8.png" alt="Image 8">
+                        <button class="like-button" onclick="like('likeCount8')">Like</button>
+                        <span class="like-count" id="likeCount8">0 Likes</span>
+                        <div class="name">Maxican designs</div>
+                        <div class="category">Category 3</div>
+                        
+                    </div>
+                    <div class="image-containers">
+                        <img src="img9.jpg" alt="Image 9">
+                        <button class="like-button" onclick="like('likeCount9')">Like</button>
+                        <span class="like-count" id="likeCount9">0 Likes</span>
+                        <div class="name">Alphabet design</div>
+                        <div class="category">Category 1</div>
+                    
+                    </div>
+                </div>
+                
+            
+                
+                
+                <div class="containers">
+                    <h1>For any queries</h1>
+                    <div class="queries">
+                        <p>Feel free to email us anytime: &#9993; nandhinirajkumar1234@gmail.com</p>
+                        <p>Contact number: &#9742; 1234567893</p>
+                        <p>Follow us on Instagram: &#xf16d; @Dribble</p>
+                    </div>
+                </div>
+                
+                
+            
+            
+           
+            
+    
+    <div class="container">
+        <div id="loginForm" class="form-container">
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="redirectToNextPage(); return false;"></form>
+                
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <div class="auth-options">
+                    <a href=#000000 onclick="forgotPassword()">Forgot Password?</a>
+                </div>
+    
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div id="signupForm" class="form-container">
+            <h2>Sign Up</h2>
+            <form id="signupForm" onsubmit="validateSignUp(); return false;">
+                <label for="newUsername">Username<span class="required">*</span></label>
+                <input type="text" id="newUsername" name="newUsername" required>
+        
+                <label for="newPassword">Password<span class="required">*</span></label>
+                <div class="password-container">
+                    <input type="password" id="newPassword" name="newPassword" required>
+                    <i class="toggle-password" onclick="togglePassword('newPassword')">&#x1F441;</i>
+                </div>
+        
+                <label for="confirmPassword">Confirm Password<span class="required">*</span></label>
+                <div class="password-container">
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    <i class="toggle-password" onclick="togglePassword('confirmPassword')">&#x1F441;</i>
+                </div>
+        
+                <label for="phoneNumber">Phone Number<span class="required">*</span></label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="\d{10}" title="Please enter exactly 10 digits" required>
+        
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        
+        </div>
+        
+        </div>
+        
+            </div>
+            
+        </div>
+        
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
